@@ -21,6 +21,11 @@ class LeagueVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    @IBAction func onNextTapped(_ sender: Any) {
+        performSegue(withIdentifier: "skillVCSeque", sender: self)
+    }
+    
 
     /*
     // MARK: - Navigation
